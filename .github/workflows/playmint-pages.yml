@@ -28,7 +28,7 @@ jobs:
       - name: Upload PlayMint
         uses: actions/upload-pages-artifact@v3
         with:
-          path: playmint-mvp
+          path: playmint
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
